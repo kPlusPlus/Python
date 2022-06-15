@@ -40,9 +40,13 @@ for i in range(maxRange):
 
 
 print(s)
+f.flush() # TEST TEST TEST
 f.close()
+
 tend = datetime.now()
 ttime = tend - tstart
 print(ttime)
 
 # kaviolina         0:01:35.363952
+# bubica            0:01:57.488756
+# CoLab             0:00:40.8

@@ -1,10 +1,12 @@
 echo "# Python" >> README.md
 git init
 git add README.md
-git add .
+@rem git add .
+git add -A
 git commit -m "first commit"
 git remote add origin https://github.com/kPlusPlus/Python.git
-git push -u origin master
+git branch -M main
+git push -u -f origin master
 
 
 @rem git remote add origin https://github.com/kPlusPlus/kPicola.git
