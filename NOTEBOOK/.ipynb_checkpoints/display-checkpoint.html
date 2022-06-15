@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PyScript App</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+<py-script>
+from IPython.display import display, HTML
+display(HTML('<h1>Hello World</h1>'))
+
+#from IPython.display import display
+display({'text/html': '<h1>Hello World</h1>', 'text/plain': 'Hello World'}, raw=True)
+</py-script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PyScript App</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+<py-script>
+def HTML(text):
+     return text.replace("{{", "<").replace("}}", ">")
+
+print( HTML("{{b}}Hello Mihael{{/b}}") )
+print( HTML("{{h1}}Hello Mihael{{/h1}}") )
+print ( "mikuli je mali" )
+print ( "&#706;h1&#707;mikuli je mali&#706;/h1&#707;" )
+</py-script>
+</body>
+</html>

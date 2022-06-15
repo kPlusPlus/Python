@@ -1,0 +1,6 @@
+print("Hello Mihael")
+print("Hello John")
+print(repr("<b>Hello Mihael</b>"))
+print(repr("<h1>Hello Mihael</h1>"))
+print("<b>Hello Mihael<//b>")
+print("<h1>Hello Mihael<//h1>")
