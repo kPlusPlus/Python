@@ -1,13 +1,13 @@
 # https://www.youtube.com/watch?v=5wJwlVoQ_sg&list=WL&index=838&t=257s&pp=gAQBiAQB
 #import itertools
 import numpy as np
-#from datetime import date
+from datetime import datetime
 
-
+tstart = datetime.now()
 counter=0
 start = np.float64(2.321927999999987)
 enddd = np.float64(2.3219280949999948)
-step  = 0.000000001
+step  = 0.0000000001
 howmany = np.ceil((enddd - start)/step)
 print("how many items",howmany)
 
@@ -26,5 +26,9 @@ for x in np.arange(start, enddd,step):
         del rez
         del x
         break
+
+tend = datetime.now()
+ttime = tend - tstart
+print(ttime)
 
 # 2.3219280948874
