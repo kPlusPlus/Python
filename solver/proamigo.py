@@ -5,10 +5,10 @@ from datetime import datetime
 
 tstart = datetime.now()
 counter=0
-start = np.float64(3.0)
+start = np.float64(3.69)
 enddd = np.float64(4)
 # step  = 0.000000001
-step  = 0.000001
+step  = 0.00000001
 howmany = np.ceil((enddd - start)/step)
 print("how many items",howmany)
 
@@ -19,7 +19,7 @@ for x in np.arange(start, enddd,step):
         
     print(f"{x:.64f}" , rez)
     print(" ")
-    if rez > 183:
+    if rez > 182:
         print("********************************")
         #print("counter",counter,x,rez)
         print("counter",counter, f"{x:.64f}",rez)
@@ -32,5 +32,6 @@ tend = datetime.now()
 ttime = tend - tstart
 print(ttime)
 
-# 0.8613531161119573065221288743487093597650527954101562500000000000 19.999999997982027
-# 0:12:56.659181
+# 3.6914584199911364414958825364010408520698547363281250000000000000 181.99999857199228
+# step  = 0.000001
+# 0:00:43.132770
