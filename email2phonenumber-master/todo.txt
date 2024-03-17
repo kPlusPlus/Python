@@ -1,0 +1,12 @@
+python3 email2phonenumber.py scrape -e target@email.com
+python3 email2phonenumber.py scrape -e kresimir.ivkovic@gmail.com
+
+
+python email2phonenumber.py bruteforce -e institut.ibt.cro@gmail.com -m 385xxxxx05 -v
+
+python email2phonenumber.py bruteforce -e institut.ibt.cro@ibtcro.microsoft.com -m 385XXXXXXX16 -v
+
+
+python email2phonenumber.py bruteforce -e institut.ibt.cro@ibtcro.microsoft.com -m 385992647705 -v
+
+385 99 264 7705

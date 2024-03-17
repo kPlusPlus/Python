@@ -47,6 +47,6 @@ tend = datetime.now()
 ttime = tend - tstart
 print(ttime)
 
-# kaviolina         0:01:35.363952
+# kaviolina         0:00:26.072287
 # bubica            0:01:57.488756
 # CoLab             0:00:40.8
