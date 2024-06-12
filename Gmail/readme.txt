@@ -1,0 +1,2 @@
+ClientID 43305722084-jrv1o0153f7mu8c1545jp1cgmikqtv0f.apps.googleusercontent.com
+ClientSecret	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
