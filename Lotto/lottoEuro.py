@@ -7,13 +7,14 @@ my_list = []
 countelement = 100000
 
 
-def generate_lottery_numbers(num_numbers=6, range_start=1, range_end=49):
+def generate_lottery_numbers(num_numbers=6, range_start=1, range_end=50):
     return random.sample(range(range_start, range_end + 1), num_numbers)
 
 
 for i in range(countelement):
     lottery_numbers = generate_lottery_numbers()
-    my_list.append(lottery_numbers)
+    ## my_list.append(lottery_numbers)
+    my_list.extend(lottery_numbers)
     ###print(i , " Your lottery numbers are:", lottery_numbers)
 
 
@@ -21,9 +22,11 @@ stop = timeit.default_timer()
 print(my_list)
 print('Time: ', stop - start)
 
-with open("myarray.csv", "wb") as f:
-    writer = csv.writer(f)
-    writer.writerows(my_list)
+
+# Writing to 'output.csv' file
+#with open('output.csv', 'w', newline='') as file:
+#    writer = csv.writer(file)
+#    writer.writerows(my_list)
 
 # Time:  1.0370708000045852 kaVioLina   100000
 # Time:  0.7106481000009808 kaVioLina iz prompta
