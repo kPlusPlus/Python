@@ -18,12 +18,19 @@ for i in range(countelement):
 
 
 stop = timeit.default_timer()
-print(my_list)
-print('Time: ', stop - start)
+#print(my_list)
 
-with open("myarray.csv", "wb") as f:
-    writer = csv.writer(f)
-    writer.writerows(my_list)
+#for row in my_list:
+#    print(row)
+
+
+with open('./output.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for row in my_list:
+        writer.writerow(row)
+        print(row)
+
+print('Time: ', stop - start)
 
 # Time:  1.0370708000045852 kaVioLina   100000
 # Time:  0.7106481000009808 kaVioLina iz prompta

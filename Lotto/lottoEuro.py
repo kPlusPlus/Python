@@ -18,8 +18,13 @@ for i in range(countelement):
     ###print(i , " Your lottery numbers are:", lottery_numbers)
 
 
+with open('./output.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for row in my_list:
+        writer.writerow(row)
+        print(row)
+
 stop = timeit.default_timer()
-print(my_list)
 print('Time: ', stop - start)
 
 

@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=tTJuOgmVmOY&t=33s
+
+
+sqrt(x) + y = 7
+x + sqrt(y) = 11
+
+---------------------
+x + y^2 = 7^2
+x = 7^2 - y^2
+
+7^2 - y^2 + sqrt(y) = 11
+sqrt(y) - y^2 = 11 - 7^2
+sqrt(y) - y^2 = 11 - 49
+sqrt(y) - y^2 = -38
+
+
+Rješenje 2
+---------------------
+
+y = 7 - sqrt(x)
+x + sqrt(7-sqrt(x)) = 11
