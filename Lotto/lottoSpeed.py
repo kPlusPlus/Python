@@ -34,6 +34,7 @@ print('Time: ', stop - start)
 
 # Time:  1.0370708000045852 kaVioLina   100000
 # Time:  0.7106481000009808 kaVioLina iz prompta
+# Time:  0.1983675999999832 nova kaVioLina iz prompta
 
 # Time:  0.07693620002828538 kyViolina  100000  --- without print
 # Time:  0.04006659996230155 kaVioLina iz prompta
